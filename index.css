@@ -146,6 +146,7 @@ padding: 20px;
     margin-bottom: 30px;    
 }
 
+
 .heading2 span{
     color: #007bff;
 }
@@ -326,9 +327,9 @@ padding: 20px;
   }
   
   .property-section h1 {
-    font-size: 2.2rem;
-    margin-bottom: 2rem;
-    font-weight: bold;
+    font-size:28px;
+    color: #333;
+    margin-bottom: 30px; 
   }
   
   .property-section h1 span {
@@ -534,8 +535,9 @@ padding: 20px;
   }
   
   .header h2 {
-    font-size: 2rem;
-    font-weight: bold;
+    font-size:28px;
+    color: #333;
+    margin-bottom: 30px; 
   }
   
   .header h2 span {
@@ -643,7 +645,7 @@ padding: 20px;
     width: 20px;
     height: 20px;
   }
-  
+
   .testimonial-text {
     font-size: 0.9rem;
     line-height: 1.5;
