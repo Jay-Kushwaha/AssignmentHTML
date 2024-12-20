@@ -1,65 +1,66 @@
 <!DOCTYPE html>
 <html>
     <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>HTML CSS assignment</title>
         <link rel="stylesheet" href="index.css">
     </head>
     <body>
-        <header class="header">
-            <!--logo-->
-            <a href="#" class="logo">
-                <img src="" alt="logo">
-                CashOffrs
-            </a>
-            <!--Navigation links-->
-            <nav class="nav-links">
+        <header class="navbar">
+            <div class="container">
+              <div class="logo">
+                <img src="./assets/logo.png" alt="Logo" class="logo-img" />
+                <span class="logo-text">CashOffrs</span>
+              </div>
+              <nav class="nav-links">
                 <a href="#">Sell</a>
                 <a href="#">Investors</a>
                 <a href="#">Agent</a>
                 <a href="#">About Us</a>
                 <a href="#">Search Properties</a>
-            </nav>
-            <!--Contact Info-->
-            <div class="contact">
-                <span><img src="" alt="phone-icon">(855) 916-5043</span>
+              </nav>
+              <div class="actions">
+                <a href="8559165043" class="phone">
+                  <img src="./assets/phone.png" alt="phonelogo" /> (855) 916-5043
+                </a>
+                <a href="#" class="btn register">Register</a>
+                <a href="#" class="btn sign-in">Sign In</a>
+              </div>
             </div>
-
-            <!--button-->
-            <div class="buttons">
-                <a href="#" class="register">Register</a>
-                <a href="#" class="sign-in">Sign In</a>
-            </div>
-        </header>
+          </header>
 <!-- second section -->
         <div class="second-section">
             <h1 class="heading2">How To Sell Your Property <span>With Cash Offrs</span></h1>
             <div class="second-content">
                 <div class="video-icon">
-                    <img src="" alt="Video-Icon">
+                    <img src="./assets/screen.png" alt="Video-Icon">
                 </div>
                 <div class="steps">
                     <div class="step">
-                      <div class="icon-placeholder">1</div>
                       <div class="step-text">
-                        <p><strong>Step 1</strong><br />Create Seller Account</p>
+                        <img src="/assets/commonicon.png" alt="">
+                        <p><strong>Step 1</strong>
+                           <br />Create Seller Account</p>
                       </div>
                     </div>
                     <div class="step">
-                      <div class="icon-placeholder">2</div>
                       <div class="step-text">
                         <p>
-                          <strong>Step 2</strong><br />Email 5 Photos to<br /><a
-                            href="mailto:team@cashoffrs.com"
-                            >team@cashoffrs.com</a
-                          >
+                        <img src="/assets/commonicon.png" alt="">
+                          <strong>Step 2</strong>
+                          <br />Email 5 Photos to<br />
+                          
+                          <a href="mailto:team@cashoffrs.com">team@cashoffrs.com</a>
                         </p>
                       </div>
                     </div>
                     <div class="step">
-                      <div class="icon-placeholder">3</div>
                       <div class="step-text">
                         <p>
-                          <strong>Step 3</strong><br />Receive multiple Cash Offers<br />within
+                            <img src="/assets/commonicon.png" alt="">
+                            <strong>Step 3</strong>
+                        <br />Receive multiple Cash Offers<br />within
                           24 Hours
                         </p>
                       </div>
@@ -67,7 +68,7 @@
             </div>
 
         </div>
-        <p>
+        <p class="second-footer">
             Your Listing Is Marketed To Hundreds Of Local Investors And Agents To
             Increase Your Properties Exposure To Motivated Buyers.
           </p>
@@ -75,7 +76,153 @@
             <button class="primary-btn">Sell My House</button>
             <button class="secondary-btn">Or call (855) 916-5043</button>
           </div>
-    
+<!-- third section -->
+<div class="third-section">
+    <section class="property-section">
+        <h1>
+          No Matter The Situation, <br /><span
+            >Cash Offrs Will Get Your Property Sold!</span
+          >
+        </h1>
+        <div class="property-icons">
+          <div class="icon">
+            <img src="./assets/commonicon.png" alt="Needs Work" />
+            <p>Needs Work</p>
+          </div>
+          <div class="icon">
+            <img src="./assets/commonicon.png" alt="Inherited Property" />
+            <p>Inherited Property</p>
+          </div>
+          <div class="icon">
+            <img src="./assets/commonicon.png" alt="Financial Hardship" />
+            <p>Financial Hardship</p>
+          </div>
+          <div class="icon">
+            <img src="./assets/commonicon.png" alt="Tenant Occupied" />
+            <p>Tenant Occupied</p>
+          </div>
+          <div class="icon">
+            <img src="./assets/commonicon.png" alt="Vacation Home" />
+            <p>Vacation Home</p>
+          </div>
+          <div class="icon">
+            <img src="./assets/commonicon.png" alt="Neglected Property" />
+            <p>Neglected Property</p>
+          </div>
+        </div>
+        <button class="learn-more">Learn More</button>
+      </section>
+</div>
+<main>
+    <section class="savings-section">
+      <h2>
+        Save Thousands On Commission<br /><span
+          >By Selling With Cash Offrs!</span
+        >
+      </h2>
+      <div class="calculator">
+        <p class="title">Set value of your house</p>
+        <div class="calculator-content">
+          <div class="value-input">
+            <span>$</span><input type="text" value="540,000" disabled />
+          </div>
+          <div class="savings">
+            <p>Cash Offrs Fee: <span>$0</span></p>
+            <p>CashOffr's Savings*: <span>$32,400</span></p>
+            <p class="note">
+              *Savings are based on an assumed 6% agent sales commission.
+            </p>
+          </div>
+        </div>
+      </div>
+      <button class="learn-more">Learn More</button>
+    </section>
+  </main>
+<!-- fourth testimonial section -->
+<section class="testimonials-section">
+    <div class="heading2">
+      <h2>Testimonials From <span>Happy Clients</span></h2>
+    </div>
+    <div class="testimonials-layout">
+
+      <div class="rating-widget">
+        <h3>CashOffrs</h3>
+        <p class="rating-score">5.0 <span class="stars">★★★★★</span></p>
+        <p class="powered-by">
+          Powered by
+          <img src="./assets/googlelogo.png" alt="Google Logo" class="google-logo" />
+        </p>
+        <button class="review-btn">Ready To Review</button>
+      </div>
+      <div class="carousel-container">
+        <a href="#card3" class="carousel-btn prev-btn">‹</a>
+        <div class="carousel">
+          <div class="testimonial-card" id="card1">
+            <div class="testimonial-header">
+              <span class="quote">“</span>
+              <span class="stars">★★★★★</span>
+              <img
+                src="/assets/googlelogo.png"
+                alt="Google Logo"
+                class="google-logo"
+              />
+            </div>
+            <p class="testimonial-text">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+              Magnam, expedita?
+            </p>
+            <div class="author">
+              <p>Peter Sotomayor</p>
+              <small>20 days ago</small>
+            </div>
+          </div>
+          <div class="testimonial-card" id="card2">
+            <div class="testimonial-header">
+              <span class="quote">“</span>
+              <span class="stars">★★★★★</span>
+              <img
+                src="/assets/googlelogo.png"
+                alt="Google Logo"
+                class="google-logo"
+              />
+            </div>
+            <p class="testimonial-text">
+             Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+             Quam esse eligendi perspiciatis sint est exercitationem provident? 
+             Cum nostrum rerum necessitatibus!
+            </p>
+            <div class="author">
+              <p>Lori Mclaughlin</p>
+              <small>26 days ago</small>
+            </div>
+          </div>
+          <div class="testimonial-card" id="card3">
+            <div class="testimonial-header">
+              <span class="quote">“</span>
+              <span class="stars">★★★★★</span>
+              <img
+                src="/assets/googlelogo.png"
+                alt="Google Logo"
+                class="google-logo"
+              />
+            </div>
+            <p class="testimonial-text">
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aliquid numquam, harum, 
+            ipsa ad laborum provident perspiciatis cupiditate, dolore pariatur dolorem totam? Velit, 
+            ducimus magnam deleniti quos aliquid alias architecto assumenda suscipit dolor libero voluptatem? 
+            Numquam perferendis, sit, ex culpa magni repellat a
+            ssumenda alias officia laborum sint ducimus, consectetur corporis beatae?
+            </p>
+            <div class="author">
+              <p>Pauley Becker</p>
+              <small>a month ago</small>
+            </div>
+          </div>
+        </div>
+        <a href="#card1" class="carousel-btn next-btn">›</a>
+      </div>
+    </div>
+  </section>
     
     </body>
 </html>
